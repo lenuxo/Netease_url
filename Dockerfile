@@ -6,5 +6,5 @@ RUN pip3 config set global.index-url https://mirrors.aliyun.com/pypi/simple/ && 
 COPY . .
 RUN chmod +x /app/entrypoint.sh
 ENV TZ=Asia/Shanghai
-EXPOSE 5000
+EXPOSE 5023
 CMD ["/app/entrypoint.sh"]
